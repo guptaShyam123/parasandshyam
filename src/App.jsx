@@ -1,6 +1,6 @@
 import React from "react";
 import Sliders from "./components/Sliders";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import {BsArrowRightCircle} from "react-icons/bs"
 import {Slide,Roll} from "react-awesome-reveal";
 import header from "./assets/header.png";
@@ -28,13 +28,13 @@ import CardCOmponent from "./components/CardCOmponent";
 import Responsive from "./components/Responsive";
 import Res from './components/Res'
 import Cards from "./components/Cards";
-
-
+import Header from "./components/NewHeader";
+import "./App.css";
 
 const App = () => {
   return (
     <>
-    
+    <Header/>
   <Cards/>
    
     </>

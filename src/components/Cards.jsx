@@ -15,13 +15,7 @@ const Miandiv  = styled.div`
     @media(min-width:1025px) and (max-width:1280px){
       position: absolute;  
     }
-    
-    @media(min-width:1281px) and (max-width:1370px){
-      position: absolute;
-    }
-    @media(min-width:1371px) and (max-width:1540px){
-      position: absolute;  
-    }
+
 `
 const Image = styled.img`
         height:30%;
@@ -32,6 +26,10 @@ const Image = styled.img`
             width:40%;
         }
         @media(min-width:1025px) and (max-width:1280px){
+          height:30%;
+          width:40%;
+        }
+        @media(min-width:1281px) and (max-width:1370px){
           height:30%;
           width:40%;
         }
@@ -64,10 +62,6 @@ const Bifdiv = styled.div`
     margin-left:20vh;
   }
 
-  @media(min-width:1371px) and (max-width:1540px){
-    margin-top:10vh;
-    margin-left:20vh;
-  }
 `
 
 const Secimg    = styled.div`
@@ -93,6 +87,12 @@ const Secimg    = styled.div`
     position: absolute;
     top:11%;
     left:10%;
+  }
+
+  @media(min-width:1281px) and (max-width:1370px){
+    position: absolute;
+    top:11%;
+    left:13%;
   }
 
 `
