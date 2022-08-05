@@ -17,7 +17,7 @@ const Header = () => {
     padding-left: 630px;
   }
   @media (min-width:1281px)  and (max-width:1400px) {
-    padding-left: 730px;
+    padding-left: 700px;
   }
     @media (min-width:1401px)  and (max-width:1600px) {
     padding-left: 830px;
@@ -37,7 +37,7 @@ const Header = () => {
   `;
   const LogoContent = styled.div`
     padding-left: 20px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   `;
 
   return (
