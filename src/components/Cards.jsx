@@ -15,7 +15,13 @@ const Miandiv  = styled.div`
     @media(min-width:1025px) and (max-width:1280px){
       position: absolute;  
     }
-
+    
+    @media(min-width:1281px) and (max-width:1370px){
+      position: absolute;
+    }
+    @media(min-width:1371px) and (max-width:1540px){
+      position: absolute;
+    }
 `
 const Image = styled.img`
         height:30%;
@@ -28,6 +34,14 @@ const Image = styled.img`
         @media(min-width:1025px) and (max-width:1280px){
           height:30%;
           width:40%;
+        }
+
+        @media(min-width:1281px) and (max-width:1370px){
+          height:30%;
+          width:40%;
+        }
+        @media(min-width:1371px) and (max-width:1540px){
+
         }
 
 `
@@ -44,6 +58,14 @@ const Bifdiv = styled.div`
     margin-top:10vh;
     margin-left:20vh;
   }
+  @media(min-width:1281px) and (max-width:1370px){
+    margin-top:10vh;
+    margin-left:20vh;
+  }
+
+  @media(min-width:1371px) and (max-width:1540px){
+
+  }
 `
 
 const Secimg    = styled.div`
@@ -59,6 +81,14 @@ const Secimg    = styled.div`
     position: absolute;
     top:11%;
     left:13%;
+  }
+  @media(min-width:1281px) and (max-width:1370px){
+    position: absolute;
+    top:11%;
+    left:12%;
+  }
+  @media(min-width:1371px) and (max-width:1540px){
+
   }
 
 `
@@ -78,6 +108,14 @@ const Girlimg = styled.img`
         width:40%   ;
         background-position:cover;
       }
+      @media(min-width:1281px) and (max-width:1370px){
+        height:33%;
+        width:40%   ;
+        background-position:cover;
+      }
+      @media(min-width:1371px) and (max-width:1540px){
+
+      }
 `
 
 const Thirdiv = styled.div`
@@ -93,6 +131,14 @@ const Thirdiv = styled.div`
     position: absolute;
     left:30%;
     top:27%;
+  }
+  @media(min-width:1281px) and (max-width:1370px){
+    position: absolute;
+    left:29%;
+    top:26%;
+  }
+  @media(min-width:1371px) and (max-width:1540px){
+
   }
 
 `
@@ -111,6 +157,14 @@ const Boyimg = styled.img`
         width:45%;
         background-position:cover;
       }
+      @media(min-width:1281px) and (max-width:1370px){
+        height:45%;
+        width:45%;
+        background-position:cover;
+      } 
+      @media(min-width:1371px) and (max-width:1540px){
+
+      }
 `
 const Biggestdiv = styled.div`
    display:flex;
@@ -119,6 +173,12 @@ const Biggestdiv = styled.div`
 }
 @media(min-width:1025px) and (max-width:1280px){
   display:flex;
+}
+@media(min-width:1281px) and (max-width:1370px){
+  display:flex;
+}
+@media(min-width:1371px) and (max-width:1540px){
+
 }
 
 `
