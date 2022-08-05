@@ -28,13 +28,13 @@ import CardCOmponent from "./components/CardCOmponent";
 import Responsive from "./components/Responsive";
 import Res from './components/Res'
 import Cards from "./components/Cards";
-
+import Header from "./components/NewHeader";
 
 
 const App = () => {
   return (
     <>
-    
+    <Header/>
   <Cards/>
    
     </>
