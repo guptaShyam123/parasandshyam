@@ -20,7 +20,7 @@ const Miandiv  = styled.div`
       position: absolute;
     }
     @media(min-width:1371px) and (max-width:1540px){
-      position: absolute;
+      position: absolute;  
     }
 `
 const Image = styled.img`
@@ -41,7 +41,8 @@ const Image = styled.img`
           width:40%;
         }
         @media(min-width:1371px) and (max-width:1540px){
-
+          height:30%;
+          width:40%;
         }
 
 `
@@ -64,7 +65,8 @@ const Bifdiv = styled.div`
   }
 
   @media(min-width:1371px) and (max-width:1540px){
-
+    margin-top:10vh;
+    margin-left:20vh;
   }
 `
 
@@ -88,7 +90,9 @@ const Secimg    = styled.div`
     left:12%;
   }
   @media(min-width:1371px) and (max-width:1540px){
-
+    position: absolute;
+    top:11%;
+    left:10%;
   }
 
 `
@@ -114,7 +118,9 @@ const Girlimg = styled.img`
         background-position:cover;
       }
       @media(min-width:1371px) and (max-width:1540px){
-
+        height:33%;
+        width:40%   ;
+        background-position:cover;
       }
 `
 
@@ -138,7 +144,9 @@ const Thirdiv = styled.div`
     top:26%;
   }
   @media(min-width:1371px) and (max-width:1540px){
-
+    position: absolute;
+    left:22%;
+    top:25%;
   }
 
 `
@@ -163,7 +171,9 @@ const Boyimg = styled.img`
         background-position:cover;
       } 
       @media(min-width:1371px) and (max-width:1540px){
-
+        height:45%;
+        width:45%;
+        background-position:cover;
       }
 `
 const Biggestdiv = styled.div`
@@ -178,7 +188,7 @@ const Biggestdiv = styled.div`
   display:flex;
 }
 @media(min-width:1371px) and (max-width:1540px){
-
+  display:flex;
 }
 
 `
